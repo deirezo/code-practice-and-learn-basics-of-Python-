@@ -1,0 +1,40 @@
+#prueba de archivos de listas hasta que sepa como organizar la mamada
+deudas = ["deuda", "deuda_con_intereses", "bonus"]
+
+
+#variable extra para probar el append
+deudas.append("bonus extra")
+
+#variable extra para probar el insert
+deudas.insert(1, "renta")
+
+#variable extra para probar el remove
+deudas.remove("bonus extra")
+
+#variable extra para probar el pop
+deuda_eliminada = deudas.pop(2)
+print("Deuda eliminada:", str(deuda_eliminada))
+
+#variable extra para probar el sort
+deudas.sort()
+
+#variable extra para probar el reverse
+deudas.reverse()
+
+#variable necesaria para seguir un print logico de pagos pendientes
+deudas.remove("bonus")
+
+
+#printeo normal de la lista
+
+#print (deudas[0])
+#print (deudas[1])
+#print (deudas[2])
+
+#printeo altertivo pero idéntico
+
+#print (deudas[-3])
+#print (deudas[-2])
+#print (deudas[-1])
+
+print(deudas)
